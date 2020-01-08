@@ -5,7 +5,7 @@
 export ZSH="${HOME}/.oh-my-zsh"
 export PATH=~/anaconda3/bin:$PATH
 
-ZSH_THEME="agnoster"
+ZSH_THEME="macovsky"
 
 plugins=(
   copyfile
