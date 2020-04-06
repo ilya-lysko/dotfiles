@@ -3,7 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
-export PATH=~/anaconda3/bin:$PATH
+export PATH=/Users/ilya_lysko/opt/anaconda3/bin/:$PATH
 
 ZSH_THEME="macovsky"
 
@@ -23,15 +23,9 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # aliases
-alias virt="ssh ilysko-vm.openstack.go.devmail.ru -l i.lysko"
-alias virt2="ssh ilysko-vm-2.openstack.go.devmail.ru -l i.lysko"
-alias expt1="ssh srch-youla-experiment-t1.go.devmail.ru -l i.lysko"
 
 
 # funcs
-upload() {
-    curl --upload-file $1 https://t.bk.ru
-}
 
 unpack(){
     if [ -f $1 ] ; then
