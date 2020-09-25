@@ -3,7 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
-export PATH=/Users/ilya_lysko/opt/anaconda3/bin/:$PATH
+export PATH=${HOME}/anaconda3/bin/:$PATH
 
 ZSH_THEME="macovsky"
 
