@@ -1,9 +1,12 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+ZSH_DISABLE_COMPFIX=true
+
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
-export PATH=${HOME}/anaconda3/bin/:$PATH
+alias python='/usr/local/bin/python3.9'
+# export PATH=${HOME}/anaconda3/bin/:$PATH
 
 ZSH_THEME="macovsky"
 
