@@ -60,3 +60,6 @@ set backspace=indent,eol,start
 
 let python_highlight_all=1
 syntax on
+
+" YMC settings
+let g:ycm_python_binary_path = 'python'
