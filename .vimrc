@@ -1,4 +1,5 @@
 set nu
+set mouse=a
 set clipboard=unnamed
 set encoding=utf-8
 
