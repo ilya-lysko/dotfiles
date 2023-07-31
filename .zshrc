@@ -5,7 +5,7 @@ ZSH_DISABLE_COMPFIX=true
 
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
-alias python=python3
+# alias python=python3
 # export PATH=${HOME}/anaconda3/bin/:$PATH
 
 ZSH_THEME="macovsky"
@@ -44,3 +44,14 @@ eval "$(pyenv init -)"
 export TERM=xterm-256color
 
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+eval $(thefuck --alias)
+
+
+eval "$(_PIPENV_COMPLETE=zsh_source pipenv)"
+
+
+# some git aliases
+alias gs='git status'
+alias gd='git diff'
+alias ga='git add'
+alias gl='git log --oneline'
