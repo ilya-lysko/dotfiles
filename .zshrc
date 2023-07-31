@@ -19,7 +19,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-
 unpack(){
     if [ -f $1 ] ; then
             case $1 in
@@ -40,15 +39,14 @@ unpack(){
             echo "'$1' is not a valid file"
     fi
 }
+
 eval "$(pyenv init -)"
 export TERM=xterm-256color
 
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 eval $(thefuck --alias)
 
-
 eval "$(_PIPENV_COMPLETE=zsh_source pipenv)"
-
 
 # some git aliases
 alias gs='git status'
